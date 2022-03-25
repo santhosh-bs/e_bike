@@ -5,6 +5,7 @@
 }
 
 .App-header {
+  padding-top: 30px;
   background-color: #282c34;
   justify-content: space-evenly;
   display: flex;
@@ -18,13 +19,13 @@
 }
 
 .header1 {
+  background-color: rgb(28, 76, 116);
   display: flex;
+  width: 100%;
   position: fixed;
   margin-bottom: auto;
   padding-bottom: 20px;
   justify-content: space-evenly;
-  flex-direction: column;
-  z-index: 100;
   @media screen(min-width : "767px") {
     flex-direction: row;
     align-items: center;
