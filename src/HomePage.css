@@ -1,0 +1,40 @@
+.container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  @media screen (min-width: 767px) {
+    flex-direction: row;
+    flex-wrap: inherit;
+  }
+}
+
+.text1 {
+  padding: 5px;
+  font-family: Georgia;
+  font-size: large;
+  color: white;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: inherit;
+  color: white;
+}
+
+.content1 {
+  font-family: "Segoe UI";
+  font-size: medium;
+  color: white;
+}
+
+.image_comtainer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  size-adjust: auto;
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
