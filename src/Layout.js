@@ -1,5 +1,5 @@
 import "./Layout.css";
-import React, {useState} from "react";
+import React from "react";
 import QRCode from "qrcode.react";
 import "./HomePage.css";
 import {RWebShare} from "react-web-share"; //To share website link via other apps
